@@ -3,7 +3,12 @@
     box-sizing: border-box;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    
+}
+.body-background {
+    background: #efefef;
+}
+.container{
+    overflow-x: hidden;
 }
 
 /* Navbar Section */
@@ -26,6 +31,10 @@
 /* Hero Section */
 .hero-img{
     height: 15rem;
+    transition: all 0.3s;
+}
+.hero-left:hover .hero-img{
+    transform: scale(1.05);
 }
 .hero-heading{
     font-weight: 500;
@@ -79,10 +88,11 @@
 .hero-bottom-cart:hover .hero-bottom-icon {
     opacity: 1;
 }
-.hero-bottom-wrap{
-    /* display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    grid-gap: 5px; */
+.hero-bottom-img{
+    transition: all 0.3s;
+}
+.hero-bottom-cart:hover .hero-bottom-img{
+    transform: scale(1.05);
 }
 /* Hero Section */
 
@@ -109,7 +119,7 @@
     transition: all 0.3s;
 }
 .section-link:hover .section-icon{
-    transform: translateX(10px);
+    transform: translateX(5px);
 }
 
 /* Section Title */
@@ -117,6 +127,15 @@
 
 
 /* Latest News */
+.news-left-img{
+    transition: all 0.3s;
+}
+.news-left{
+    cursor: pointer;
+}
+.news-left:hover .news-left-img{
+    transform: scale(1.05);
+}
 .latest-news-container{
     background: #F08F64;
 }
@@ -137,23 +156,38 @@
 .news-list-heading{
     font-size: 16px;
 }
+.news-list-img{
+    transition: all 0.3s;
+}
+.news-list-single{
+    cursor: pointer;
+}
+.news-list-single:hover .news-list-img{
+    transform: scale(1.05);
+}
 /* Latest News */
 
 
 
 /* Technology Section */
+.technology-left-card{
+    cursor: pointer;
+}
+.technology-left-card:hover .technology-left-img > img{
+    transform: scale(1.05);
+}
 .technology-left-img {
     width: 100%;
     height: 15rem;
 }
-.technology-left-img> img{
+.technology-left-img > img{
     width: 100%;
     height: 100%;
+    transition: all 0.3s;
 }
 .technology-right{
     height: 43rem;
-    overflow: hidden;
-    
+    overflow: hidden;  
 }
 .technology-right-img {
     height: 100%;
@@ -256,7 +290,7 @@
 }
 .footer-input {
     border-radius: 50px;
-    width: 55vh;
+    width: 18rem;
     height: 2.5rem;
 }
 .footer-input > input{
@@ -285,8 +319,6 @@
     border-bottom: 1px solid #413d3d;
     margin-right: 5rem;
 }
-.footer-description-list{}
-.footer-description-list > ul{}
 .footer-description-list > ul > li{
     color: #999;
     margin-bottom: 8px;
