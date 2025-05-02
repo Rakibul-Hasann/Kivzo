@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+/* Navbar Section */
+.navbar{
+    background: #FFFFFF;
+}
+.nav-item > a{
+    font-size: 14px;
+    color: black;
+}
+.nav-search-icon{
+    right: 30px;
+    top: 12px;
+}
+
+/* Navbar Section */
+
+
+
+/* Hero Section */
+.hero-img{
+    height: 15rem;
+}
+.hero-heading{
+    font-weight: 500;
+}
+.hero-btn > a{
+    padding: 7px 12px;
+    /* background-color: #6641EE; */
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+    font-size: 12px;
+    font-weight: 500;
+}
+.hero-btn > a:hover{
+    background-color: black;
+}
+.line{
+    height: 1px;
+    width: 15px;
+    background-color: black;
+}
+.hero-date{
+    font-size: 12px;
+}
+.hero-right-heading{
+    font-weight: 600;
+}
+.hero-cart{
+    border-bottom: 1px solid #ddd;
+    transition: all 0.3s;
+}
+.hero-cart:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.hero-bottom-text{
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.hero-bottom-text > p{
+    font-size: 13px;
+}
+.hero-bottom-icon{
+    opacity: 0;
+    transition: all 0.3s;
+}
+.hero-bottom-cart{
+    cursor: pointer;
+}
+.hero-bottom-cart:hover .hero-bottom-icon {
+    opacity: 1;
+}
+.hero-bottom-wrap{
+    /* display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-gap: 5px; */
+}
+/* Hero Section */
+
+
+
+/* Editor Pick */
+.editor-pick-test{
+    font-size: 19px;
+    font-weight: 500;
+}
+.editor-sub-title{
+    font-size: 15px;
+}
+/* Editor Pick */
+
+
+
+/* Section Title */
+.section-link{
+    font-size: 15px;
+    font-weight: 500;
+}
+.section-icon{
+    transition: all 0.3s;
+}
+.section-link:hover .section-icon{
+    transform: translateX(10px);
+}
+
+/* Section Title */
+
+
+
+/* Latest News */
+.latest-news-container{
+    background: #F08F64;
+}
+.news-sub-title{
+    font-size: 14px;
+}
+.news-heading{
+    font-size: 19px;
+}
+.news-img{
+    height: 10rem;
+}
+.news-list-img{
+    width: 14rem;
+    overflow: hidden;
+}
+
+.news-list-heading{
+    font-size: 16px;
+}
+/* Latest News */
+
+
+
+/* Technology Section */
+.technology-left-img {
+    width: 100%;
+    height: 15rem;
+}
+.technology-left-img> img{
+    width: 100%;
+    height: 100%;
+}
+.technology-right{
+    height: 43rem;
+    overflow: hidden;
+    
+}
+.technology-right-img {
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s;
+}
+.author-budge {
+    top: 30px;
+    left: 35px;
+    background-color: #F08F64;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+.technolgy-right-date{
+    font-size: 12px;
+}
+.technology-img-overlay{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+}
+.technology-right:hover .technology-right-img{
+    transform: scale(1.05);
+}
+
+/* Technology Section */
+
+
+
+/* Advertise Section */
+.ads-btn {
+    padding: 10px 37px;
+    background-color: #F08F64;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-left: 2.5rem;
+    color: black;
+    transition: all 0.3s;
+}
+.ads-btn:hover {
+    background: black;
+    color: white;
+}
+.ads-bottom {
+    height: 4rem;
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* Advertise Section */
+
+
+
+/* Editorial Section */
+.editorial-card > img{
+    transition: all 0.3s;
+}
+.editorial-card:hover > img{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.editorial-bottom-text{
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 3.5rem;
+}
+.editor-name{
+    font-size: 19px;
+}
+.editor-title{
+    font-size: 13px;
+    font-weight: 400;
+}
+/* Editorial Section */
+
+
+
+/* Podcast Section */
+.podcast-card-right {
+    height: 17.25rem;
+    cursor: pointer;
+}
+.podcast-card-left {
+    height: 36rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+.podcast-card-left:hover > img{
+    transform: scale(1.05);
+}
+.podcast-card-right:hover > img{
+    transform: scale(1.05);
+}
+/* Podcast Section */
+
+
+
+/* Footer Section */
+.footer-container{
+    background: #000000;
+}
+.footer-input {
+    border-radius: 50px;
+    width: 55vh;
+    height: 2.5rem;
+}
+.footer-input > input{
+    width: 100%;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    height: 100%;
+    padding: 0px 15px;
+    font-size: 14px;
+}
+.footer-btn{
+    background: #F08F64;
+    border: none;
+    padding: 10px 21px;
+    border-radius: 50px;
+    font-size: 13px;
+    margin-left: 0.5rem;
+    transition: all 0.3s;
+}
+.footer-btn:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.footer-top{
+    border-bottom: 1px solid #413d3d;
+    margin-right: 5rem;
+}
+.footer-description-list{}
+.footer-description-list > ul{}
+.footer-description-list > ul > li{
+    color: #999;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+.footer-description-list > ul > li:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer-link-item{
+    color: #d9d9d9;
+    border-bottom: 1px solid #413d3d;
+    transition: all 0.3s;
+}
+.foter-link-arrow > i{
+    transition: all 0.2s;
+}
+.footer-link-item:hover{
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+.footer-link-item:hover .foter-link-arrow > i{
+    transform: rotate(-40deg);
+}
+.footer-link-icon > i{
+    padding: 10px 14px;
+    background-color: #2A2A2A;
+    border-radius: 5px;
+}
+.footer-link-icon > p {
+    font-size: 17px;
+    padding-left: 1rem;
+}
+/* Footer Section */
+
+
+
+/* Creator Sectoion */
+.creator-logo > h6{
+    left: 35px;
+    color: #fff;
+    font-size: 36px;
+}
+.creator-container{
+    background-color: #000000;
+}
+.creator-privacy{
+    border-left: 1px solid #413d3d;
+}
+.creator-privacy {
+    color: #999;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 5px 0px;
+}
+.creator-privacy > ul > li{
+    margin-right: 2rem;
+    transition: all 0.2s;
+}
+.creator-privacy > ul > li:hover{
+    color: white;
+    cursor: pointer;
+}
+.creator-container-right > p{
+    color: #999;
+    font-size: 14px;
+    transition: all0.3s;
+    text-align: end;
+}
+
+/* Creator Sectoion */

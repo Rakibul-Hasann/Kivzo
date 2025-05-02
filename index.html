@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kizvo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BootStrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+
+
+
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+        <a class="navbar-brand" href="#"><img src="./image/kivzo.svg" class="ps-3" alt="kivzo-logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">BUSINESS <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">HEALTH NEWS</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">WORLD NEWS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SPORT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CULTURE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SUBSCRIBE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CART (0)</a>
+            </li>
+          </ul>
+          <form class=" form-inline my-2 my-lg-0 pe-3 position-relative">
+            <input class="nav-search form-control mr-sm-2 rounded-5" type="search" placeholder="Search Here" aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass nav-search-icon position-absolute"></i>
+          </form>
+        </div>
+      </nav>
+    <!-- Navbar Section -->
+
+
+
+    <!-- Hero Section -->
+     <div class="container mt-5 pb-5">
+        <div class="row">
+            <div class="col-md-12 col-lg-8">
+                <div class="">
+                    <img src="./image/news-main-13.jpg" class="hero-img img-fluid rounded" alt="">
+                    <h1 class="hero-heading my-4">Revolutionizing manufacturing emerging trends shaping the industry</h1>
+
+                    <div class="d-flex align-items-center">
+                        <div class="hero-btn bg-primary">
+                            <a href="#" class="rounded-1  bg-primary"><i class="fa-solid fa-globe pe-1"></i>World News</a>
+                        </div>
+                        <div class="d-flex align align-items-center">
+                            <div class="line mx-3"></div>
+                            <p class="hero-date m-0">JAN 25, 2025</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class=" col-lg-4">
+                <div class="px-3 hero-right-list">
+
+                    <div class="hero-cart pb-2">
+                        <div class="d-flex align-items-center">
+                            <div class="hero-btn bg-warning">
+                                <a href="#" class="rounded-1 bg-warning"><img src="./image/ic-business.svg" class="pe-2" alt="">Business</a>
+                            </div>
+                            <div class="d-flex align align-items-center">
+                                <div class="line mx-3"></div>
+                                <p class="hero-date m-0">JAN 25, 2025</p>
+                            </div>
+                        </div>
+                        <p class="hero-right-heading my-3">Adapting business strategies to meet changing demands</p>
+                    </div>
+
+                    <div class="hero-cart mt-4 pb-2">
+                        <div class="d-flex align-items-center">
+                            <div class="hero-btn bg-danger">
+                                <a href="#" class="rounded-1  bg-danger"><img src="./image/ic-technology.svg" class="pe-2" alt="">Technology</a>
+                            </div>
+                            <div class="d-flex align align-items-center">
+                                <div class="line mx-3"></div>
+                                <p class="hero-date m-0">JAN 25, 2025</p>
+                            </div>
+                        </div>
+                        <p class="hero-right-heading my-3">Smart homes revolution how iot is transforming living spaces</p>
+                    </div>
+
+                    <div class="hero-cart mt-4 pb-2">
+                        <div class="d-flex align-items-center">
+                            <div class="hero-btn bg-info">
+                                <a href="#" class="rounded-1  bg-info"><img src="./image/ic-culture.svg" class="pe-2" alt="">Culture</a>
+                            </div>
+                            <div class="d-flex align align-items-center">
+                                <div class="line mx-3"></div>
+                                <p class="hero-date m-0">JAN 25, 2025</p>
+                            </div>
+                        </div>
+                        <p class="hero-right-heading my-3">The power of art in connecting and expressing cultural</p>
+                    </div>
+
+                    <div class="hero-cart mt-4 pb-2">
+                        <div class="d-flex align-items-center">
+                            <div class="hero-btn">
+                                <a href="#" class="rounded-1  bg-success"><img src="./image/ic-health.svg" class="pe-2" alt="">Health News</a>
+                            </div>
+                            <div class="d-flex align align-items-center">
+                                <div class="line mx-3"></div>
+                                <p class="hero-date m-0">JAN 25, 2025</p>
+                            </div>
+                        </div>
+                        <p class="hero-right-heading my-3">How artificial intelligence & machine learning are changing the field</p>
+                    </div>
+
+                    <div class="hero-cart mt-4 pb-2">
+                        <div class="d-flex align-items-center">
+                            <div class="hero-btn">
+                                <a href="#" class="rounded-1 bg-danger"><img src="./image/ic-sports.svg" class="pe-2" alt="">Sports</a>
+                            </div>
+                            <div class="d-flex align align-items-center">
+                                <div class="line mx-3"></div>
+                                <p class="hero-date m-0">JAN 25, 2025</p>
+                            </div>
+                        </div>
+                        <p class="hero-right-heading my-3">The influence of youth sports programs on developing future champions</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- Hero Section -->
+
+
+
+     <!-- Hero Bottom -->
+     <div class="hero-bottom container mt-4 mb-5 pb-4">
+        <div class="row hero-bottom-wrap g-3">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 hero-bottom-cart">
+                <div class="position-relative">
+                    <img src="./image/category-thumb-06-p-500.jpg" class="img-fluid object-fit-cover rounded hero-bottom-img" alt="">
+                    <div class="hero-bottom-text d-flex w-100 py-2 px-4 justify-content-between align-items-center position-absolute bottom-0">
+                        <p class="m-0 text-white">BUSINESS</p>
+                        <i class="hero-bottom-icon fa-solid fa-arrow-right text-white"></i>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 hero-bottom-cart">
+                <div class="position-relative">
+                    <img src="./image/category-thumb-05-p-500.jpg" class="img-fluid object-fit-cover rounded hero-bottom-img" alt="">
+                    <div class="hero-bottom-text d-flex w-100 py-2 px-4 justify-content-between align-items-center position-absolute bottom-0">
+                        <p class="m-0 text-white">BUSINESS</p>
+                        <i class="hero-bottom-icon fa-solid fa-arrow-right text-white"></i>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 hero-bottom-cart">
+                <div class="position-relative">
+                    <img src="./image/category-thumb-04-p-500.jpg" class="img-fluid object-fit-cover rounded hero-bottom-img" alt="">
+                    <div class="hero-bottom-text d-flex w-100 py-2 px-4 justify-content-between align-items-center position-absolute bottom-0">
+                        <p class="m-0 text-white">BUSINESS</p>
+                        <i class="hero-bottom-icon fa-solid fa-arrow-right text-white"></i>
+                    </div>
+                </div>  
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 hero-bottom-cart">
+                <div class="position-relative">
+                    <img src="./image/category-thumb-03-p-500.jpg" class="img-fluid object-fit-cover rounded hero-bottom-img" alt="">
+                    <div class="hero-bottom-text d-flex w-100 py-2 px-4 justify-content-between align-items-center position-absolute bottom-0">
+                        <p class="m-0 text-white">BUSINESS</p>
+                        <i class="hero-bottom-icon fa-solid fa-arrow-right text-white"></i>
+                    </div>
+                </div>  
+            </div>
+        </div>
+     </div>
+    <!-- Hero Bottom -->
+
+
+
+    <!-- Editor Pick -->
+     <div class="container py-5 my-5">
+        <div class="row g-3">
+            <div class="col-lg-5 align-items-center d-flex">
+                <div class="px-3">
+                    <div class="">
+                        <p class="editor-sub-title m-0">Stories That Matter</p>
+                        <h1 class="mb-3 h2">EDITOR'S PICK</h1>
+                    </div>
+                    <div class="">
+                        <div class="hero-cart pb-2 pt-4">
+                            <div class="d-flex align-items-center">
+                                <p class="hero-date m-0">CULTURE</p>
+                            </div>
+                            <p class="editor-pick-test my-2">The power of art in connecting and expressing cultural</p>
+                        </div>
+                        <div class="hero-cart pb-2 pt-4">
+                            <div class="d-flex align-items-center">
+                                <p class="hero-date m-0">HEALTH NEWS</p>
+                            </div>
+                            <p class="editor-pick-test my-2">How artificial intelligence & machine learning are changing the field</p>
+                        </div>
+                        <div class="hero-cart pb-2 pt-4">
+                            <div class="d-flex align-items-center">
+                                <p class="hero-date m-0">SPORTS</p>
+                            </div>
+                            <p class="editor-pick-test my-2">The influence of youth sports programs on developing future champions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-7 ">
+                <div class="editor-img">
+                    <img src="./image/editor.jpg" class="img-fluid object-fit-cover rounded" alt="">
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Editor Pick -->
+
+
+
+    <!-- Latest News -->
+     <div class="container-fluid latest-news-container py-5">
+        <div class="container">
+
+            <!-- Section Title -->
+            <div class="section-title d-flex justify-content-between align-items-center my-3">
+                <h1 class="section-heading">LATEST NEWS</h1>
+                <a href="" class="section-link text-black text-decoration-none">VIEW ALL <i class="fa-solid fa-arrow-right section-icon ps-2"></i></a> 
+            </div>
+            <!-- Section Title -->
+
+            <div class="">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="row">
+
+                            <div class="col-md-6">
+                                <img src="./image/news-thumb-1.jpg" class="img-fluid rounded" alt="">
+                                <div class="d-flex">
+                                    <a href="#" class="news-sub-title text-decoration-none text-black py-2">Technology</a>
+                                    <div class="d-flex align align-items-center">
+                                        <div class="line mx-3"></div>
+                                        <p class="hero-date m-0 text-black">JAN 25, 2025</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <h2 class="news-heading">Future-focused an in-depth look at cutting-edge tech trends</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 news-img-2">
+                                <img src="./image/news-thumb-2.jpg" class="img-fluid rounded" alt="">
+                                <div class="d-flex">
+                                    <a href="#" class="news-sub-title text-decoration-none text-black py-2">BUSINESS</a>
+                                    <div class="d-flex align align-items-center">
+                                        <div class="line mx-3"></div>
+                                        <p class="hero-date m-0 text-black">JAN 25, 2025</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <h2 class="news-heading ">Understanding the interconnectedness of events shaping our world today</h2>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-5">
+                        <div class="news-list">
+                            <div class="d-flex align-items-center pb-4">
+                                <div class="news-list-img">
+                                    <img src="./image/news-thumb-3.jpg" class="img-fluid rounded object-fit-cover" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <div class="d-flex">
+                                        <a href="#" class="news-sub-title text-decoration-none text-black py-2">BUSINESS</a>
+                                        <div class="d-flex align align-items-center">
+                                            <div class="line mx-3"></div>
+                                            <p class="hero-date m-0 text-black">JAN 25, 2025</p>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <h2 class="news-list-heading ">Adapting business strategies to meet changing demands</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center pb-4">
+                                <div class="news-list-img">
+                                    <img src="./image/news-thumb-4.jpg" class="img-fluid rounded object-fit-cover" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <div class="d-flex">
+                                        <a href="#" class="news-sub-title text-decoration-none text-black py-2">TECHNOLOGY</a>
+                                        <div class="d-flex align align-items-center">
+                                            <div class="line mx-3"></div>
+                                            <p class="hero-date m-0 text-black">JAN 25, 2025</p>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <h2 class="news-list-heading ">Smart homes revolution how iot is transforming living spaces</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center pb-4">
+                                <div class="news-list-img">
+                                    <img src="./image/news-thumb-5.jpg" class="img-fluid rounded object-fit-cover" alt="">
+                                </div>
+                                <div class="ps-3">
+                                    <div class="d-flex">
+                                        <a href="#" class="news-sub-title text-decoration-none text-black py-2">CULTURE</a>
+                                        <div class="d-flex align align-items-center">
+                                            <div class="line mx-3"></div>
+                                            <p class="hero-date m-0 text-black">JAN 25, 2025</p>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <h2 class="news-list-heading ">The power of art in connecting and expressing cultural</h2>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Latest News -->
+
+
+
+    <!-- Technology Section -->
+     <div class="container py-5 my-5">
+
+        <!-- Section Title -->
+        <div class="section-title d-flex justify-content-between align-items-center my-3">
+            <h1 class="section-heading">TECHNOLOGY</h1>
+            <a href="" class="section-link text-black text-decoration-none">VIEW ALL <i class="fa-solid fa-arrow-right section-icon ps-2"></i></a> 
+        </div>
+        <!-- Section Title -->
+
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="row">
+
+                    <div class="col-md-6 technology-left-card overflow-hidden pb-4">
+                        <div class="technology-left-img">
+                            <img src="./image/news-thumb-4.jpg" class="object-fit-cover rounded" alt="">
+                        </div>
+                        <div class="d-flex">
+                            <a href="#" class="news-sub-title text-decoration-none text-black py-2">Technology</a>
+                            <div class="d-flex align align-items-center">
+                                <div class="line mx-3"></div>
+                                <p class="hero-date m-0 text-black">JAN 25, 2025</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h2 class="news-heading">Smart homes revolution how iot is transforming living spaces</h2>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 technology-left-card overflow-hidden pb-4">
+                        <div class="technology-left-img">
+                            <img src="./image/news-thumb-6.jpg" class="object-fit-cover rounded" alt="">
+                        </div>
+                        <div class="d-flex">
+                            <a href="#" class="news-sub-title text-decoration-none text-black py-2">Technology</a>
+                            <div class="d-flex align align-items-center">
+                                <div class="line mx-3"></div>
+                                <p class="hero-date m-0 text-black">JAN 25, 2025</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h2 class="news-heading">The future of 5G connecting a world at lightning speed</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 technology-left-card overflow-hidden pb-4">
+                        <div class="technology-left-img">
+                            <img src="./image/news-thumb-7.jpg" class="object-fit-cover rounded" alt="">
+                        </div>
+                        <div class="d-flex">
+                            <a href="#" class="news-sub-title text-decoration-none text-black py-2">Technology</a>
+                            <div class="d-flex align align-items-center">
+                                <div class="line mx-3"></div>
+                                <p class="hero-date m-0 text-black">JAN 25, 2025</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h2 class="news-heading">Cybersecurity at risk the growing threat of digital breaches</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 technology-left-card overflow-hidden pb-4">
+                        <div class="technology-left-img">
+                            <img src="./image/news-thumb-8.jpg" class="object-fit-cover rounded" alt="">
+                        </div>
+                        <div class="d-flex">
+                            <a href="#" class="news-sub-title text-decoration-none text-black py-2">Technology</a>
+                            <div class="d-flex align align-items-center">
+                                <div class="line mx-3"></div>
+                                <p class="hero-date m-0 text-black">JAN 25, 2025</p>
+                            </div>
+                        </div>
+                        <div class="">
+                            <h2 class="news-heading">Transforming entertainment, education & beyond</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="technology-right position-relative rounded">
+                    <img src="./image/news-thumb-1.jpg" class="technology-right-img object-fit-cover rounded" alt="">
+                    <div class="author-budge position-absolute">KRISTIN WATSON</div>
+                    <div class="technology-img-overlay position-absolute bottom-0 text-white ps-4 pb-3 rounded">
+                        <span class="technolgy-right-date">JAN 25, 2025</span>
+                        <h3 >Future-focused an in-depth look at cutting-edge tech trends</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Technology Section -->
+
+
+
+    <!-- Advertise Section -->
+     <div class="container pb-5 mb-5">
+        <div class="position-relative rounded">
+            <img src="./image/advertise.jpg" class="img-fluid rounded" alt="">
+            <div class="ads-bottom position-absolute bottom-0 w-100 d-flex align-items-center rounded">
+                <a href="" class="ads-btn text-decoration-none">ADVERTISE WITH WS<i class="fa-solid fa-arrow-right ps-2"></i></a>
+            </div>
+        </div>
+     </div>
+    <!-- Advertise Section -->
+
+
+
+    <!-- Editorial Team -->
+     <div class="container mb-5 pb-5">
+
+        <!-- Section Title -->
+        <div class="section-title d-flex justify-content-between align-items-center my-3">
+            <h1 class="section-heading">OUR EDITORIAL TEAM</h1>
+            <a href="" class="section-link text-black text-decoration-none">VIEW ALL <i class="fa-solid fa-arrow-right section-icon ps-2"></i></a> 
+        </div>
+        <!-- Section Title -->
+
+        <div class="row">
+
+            <div class="col-md-4 col-sm-6">
+                <div class="position-relative editorial-card overflow-hidden rounded">
+                    <img src="./image/author-thumb-01.jpg" class="img-fluid object-fit-cover rounded hero-bottom-img" alt="">
+                    <div class="editorial-bottom-text d-flex w-100 py-2 px-4 justify-content-between align-items-center position-absolute bottom-0">
+                        <p class="editor-name m-0 text-white">Marvin McKinney</p>
+                        <span class="editor-title text-white">Senior Reporter</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="position-relative editorial-card overflow-hidden rounded">
+                    <img src="./image/author-thumb-02.jpg" class="img-fluid object-fit-cover rounded hero-bottom-img" alt="">
+                    <div class="editorial-bottom-text d-flex w-100 py-2 px-4 justify-content-between align-items-center position-absolute bottom-0">
+                        <p class="editor-name m-0 text-white">Theresa Webb</p>
+                        <span class="editor-title text-white">Publisher</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="position-relative editorial-card overflow-hidden rounded">
+                    <img src="./image/author-thumb-03.jpg" class="img-fluid object-fit-cover rounded hero-bottom-img" alt="">
+                    <div class="editorial-bottom-text d-flex w-100 py-2 px-4 justify-content-between align-items-center position-absolute bottom-0">
+                        <p class="editor-name m-0 text-white">Esther Howards</p>
+                        <span class="editor-title text-white">Content Writer</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     </div>
+    <!-- Editorial Team -->
+
+
+
+    <!-- Podcast Section -->
+     <div class="container my-5 pb-5">
+
+        <!-- Section Title -->
+        <div class="section-title d-flex justify-content-between align-items-center my-3">
+            <h1 class="section-heading">PODCAST</h1>
+            <a href="" class="section-link text-black text-decoration-none">VIEW ALL <i class="fa-solid fa-arrow-right section-icon ps-2"></i></a> 
+        </div>
+        <!-- Section Title -->
+
+        <div class="row">
+
+            <div class="col-lg-7 podcast-left">
+                <div class="podcast-card-left position-relative rounded">
+                    <img src="./image/podcast-thumb-01.jpg" class="technology-right-img object-fit-cover rounded" alt="">
+                    <div class="technology-img-overlay position-absolute bottom-0 text-white px-4 pb-3 rounded">
+                        <span class="technolgy-right-date">JAN 25, 2025</span>
+                        <h3 class="podcast-title" >Future-focused an in-depth look at cutting-edge tech trends</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 podcast-right ">
+                <div class="podcast-card-right podcast-first position-relative rounded overflow-hidden mb-4">
+                    <img src="./image/podcast-thumb-02.jpg" class="technology-right-img object-fit-cover rounded" alt="">
+                    <div class="technology-img-overlay position-absolute bottom-0 text-white px-4 pb-3 rounded">
+                        <span class="technolgy-right-date">JAN 25, 2025</span>
+                        <h5 class="podcast-title">Future-focused an in-depth look at cutting-edge tech trends</h5>
+                    </div>
+                </div>
+                
+                <div class="podcast-card-right podcast-second position-relative rounded overflow-hidden">
+                    <img src="./image/podcast-thumb-06.jpg" class="technology-right-img object-fit-cover rounded" alt="">
+                    <div class="technology-img-overlay position-absolute bottom-0 text-white px-4 pb-3 rounded">
+                        <span class="technolgy-right-date">JAN 25, 2025</span>
+                        <h5 class="podcast-title">Future-focused an in-depth look at cutting-edge tech trends</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+     </div>
+    <!-- Podcast Section -->
+
+
+
+    <!-- Footer Section -->
+     <footer class="container-fluid footer-container pt-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-8 mb-4">
+                    <div class="footer-top pb-4 mb-3">
+                        <h5 class="text-white mb-4">Stay updated with the latest news, stories, and insights from around the globe.</h5>
+                        <div class="footer-input-btn d-flex align-items-center">
+                            <div class="footer-input">
+                                <input type="email" placeholder="Enter your e-mail">
+                            </div>
+                            <button class="footer-btn">SUBSCRIBE NOW</button>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6 mt-4">
+                            <h5 class="h6 text-white mb-3">PAGES</h5>
+                            <div class="footer-description-list">
+                                <ul class="list-unstyled">
+                                    <li>About Us</li>
+                                    <li>Category</li>
+                                    <li>News</li>
+                                    <li>Authors</li>
+                                    <li>Podcast</li>
+                                    <li>Newsletter Plans</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6 mt-4">
+                            <h5 class="h6 text-white mb-3">CATEGORIES</h5>
+                            <div class="footer-description-list">
+                                <ul class="list-unstyled">
+                                    <li>Business</li>
+                                    <li>Health News</li>
+                                    <li>World News</li>
+                                    <li>Sports</li>
+                                    <li>Culture</li>
+                                    <li>Technology</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-6 mt-4">
+                            <h5 class="h6 text-white mb-3">RESOURCES</h5>
+                            <div class="footer-description-list">
+                                <ul class="list-unstyled">
+                                    <li>Contact us</li>
+                                    <li>Advertise</li>
+                                    <li>Changelog</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4">
+                    <div class="footer-link">
+                        <div class="footer-link-item d-flex justify-content-between align-items-center pb-3 mb-3">
+                            <div class="footer-link-icon d-flex align-items-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <p class="m-0">Facebook</p>
+                            </div>
+                            <div class="foter-link-arrow">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </div>   
+                        </div>
+                        <div class="footer-link-item d-flex justify-content-between align-items-center pb-3 mb-3">
+                            <div class="footer-link-icon d-flex align-items-center">
+                                <i class="fa-brands fa-youtube"></i>
+                                <p class="m-0">YouTube</p>
+                            </div>
+                            <div class="foter-link-arrow">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </div>   
+                        </div>
+                        <div class="footer-link-item d-flex justify-content-between align-items-center pb-3 mb-3">
+                            <div class="footer-link-icon d-flex align-items-center">
+                                <i class="fa-brands fa-instagram"></i>
+                                <p class="m-0">Instagram</p>
+                            </div>
+                            <div class="foter-link-arrow">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </div>   
+                        </div>
+                        <div class="footer-link-item d-flex justify-content-between align-items-center pb-3 mb-3">
+                            <div class="footer-link-icon d-flex align-items-center">
+                                <i class="fa-brands fa-x-twitter"></i>
+                                <p class="m-0">Twitter</p>
+                            </div>
+                            <div class="foter-link-arrow">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </div>   
+                        </div>
+                        <div class="footer-link-item d-flex justify-content-between align-items-center pb-3 mb-3">
+                            <div class="footer-link-icon d-flex align-items-center">
+                                <i class="fa-brands fa-reddit-alien"></i>
+                                <p class="m-0">Reddit</p>
+                            </div>
+                            <div class="foter-link-arrow">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </div>   
+                        </div>
+                        <div class="footer-link-item d-flex justify-content-between align-items-center pb-3 mb-3">
+                            <div class="footer-link-icon d-flex align-items-center">
+                                <i class="fa-solid fa-rss"></i>
+                                <p class="m-0">RSS.com</p>
+                            </div>
+                            <div class="foter-link-arrow">
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </div>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </footer>
+    <!-- Footer Section -->
+
+
+
+    <!-- Creator Section -->
+     <div class="container-fluid creator-container pt-5 pb-4">
+        <div class="container ">
+            <div class="row creator-container-wrap d-flex justify-content-between align-items-center">
+                <div class="col-lg-7 col-md-12">
+                    <div class="creator-container-left ">
+                        <div class="creator-logo d-flex align-items-center position-relative">
+                            <img src="./image/logo.svg" class="me-4" alt="">
+                            <div class="creator-privacy">
+                                <ul class="list-unstyled d-flex align-items-center m-0 ms-4">
+                                    <li>Privacy Policy</li>
+                                    <li>Terms & Condition</li>
+                                    <li>License</li>
+                                </ul>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12">
+                    <div class="creator-container-right p-0">
+                        <p class="">&copy; 2025 Kivzo. Designed by <b><i>Rakibul Hasan</i></b>. Powered by Webflow.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+     </div>
+    <!-- Creator Section -->
+    
+</body>
+</html>
