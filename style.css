@@ -11,6 +11,9 @@
     overflow-x: hidden;
 }
 
+
+
+
 /* Navbar Section */
 .navbar{
     background: #FFFFFF;
@@ -19,11 +22,22 @@
     font-size: 14px;
     color: black;
 }
-.nav-search-icon{
-    right: 30px;
-    top: 12px;
+.nav-search-icon {
+    right: 87px;
+    top: 11px;
 }
-
+.nav-menu{
+    background: #F08F64;
+    padding: 6px 11px;
+    border-radius: 50px;
+}
+.nav-menu > a{
+    text-decoration: none;
+    color: black;
+}
+.nav-menu > a > i{
+    font-size: 22px;
+}
 /* Navbar Section */
 
 
@@ -41,7 +55,6 @@
 }
 .hero-btn > a{
     padding: 7px 12px;
-    /* background-color: #6641EE; */
     color: white;
     text-decoration: none;
     transition: all 0.3s;

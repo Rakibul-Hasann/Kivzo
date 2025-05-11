@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="imgae/x-icon" href="./image/kivzo.svg">
+    <!-- Favicon -->
+     
     <title>Kizvo</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
@@ -30,7 +35,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
+        <div class="navbar-item collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#">BUSINESS <span class="sr-only">(current)</span></a>
@@ -55,9 +60,13 @@
               <a class="nav-link" href="#">CART (0)</a>
             </li>
           </ul>
-          <form class=" form-inline my-2 my-lg-0 pe-3 position-relative">
+          <form class="header-search form-inline my-2 my-lg-0 pe-3 position-relative d-flex align-items-center">
             <input class="nav-search form-control mr-sm-2 rounded-5" type="search" placeholder="Search Here" aria-label="Search">
             <i class="fa-solid fa-magnifying-glass nav-search-icon position-absolute"></i>
+
+            <div class="nav-menu ms-3">
+                <a href="#"><i class="fa-solid fa-bars"></i></a>
+            </div>
           </form>
         </div>
       </nav>
